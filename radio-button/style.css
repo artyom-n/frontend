@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Radio container */
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 12px 0px;
+    cursor: pointer;    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;   
+  }
+  
+  /* Hide the browser's default radio-button */
+  .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio-button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #D4D4D4;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3DAF9;  
+  }    
+  
+  .radio-container input:checked ~ .checkmark {
+    background-color: blueviolet;
+  }
