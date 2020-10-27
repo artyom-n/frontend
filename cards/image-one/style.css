@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 100%;
+    position: relative; 
+    border-radius: 16px;   
+    overflow: hidden;
+}
+
+.card__image-wrapper {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.card__heading {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+
+
