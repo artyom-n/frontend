@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.card {
+    background-color: white;
+    border-radius: 16px;
+    display: flex;    
+    padding: 16px;
+    height: 100%;          
+}
+
+.card__background-image {
+    width: 176px;    
+    flex-shrink: 0;
+    background-image: url(https://picsum.photos/176/176);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card__content-wrapper {
+    padding-left: 16px;    
+}
+
+.card__heading {
+    margin: 0;
+}
+
+.card__paragraph {
+    text-align: justify;
+}
+
+.card__signup-wrapper {
+    text-align: right;    
+}
+
+@media only screen and (max-width: 1025px) {
+    .card {
+        flex-wrap: wrap;
+        min-width: 320px;
+        min-height: 380px;                      
+    } 
+       
+    .card__background-image {
+        max-height: 176px;
+        height: 100%;
+        flex-grow: 1;
+    }    
+
+    .card__heading {
+        margin-top: 0px;
+    }
+
+    .card__paragraph {
+        margin-top: 8px;
+        margin-bottom: 0;                
+    }
+
+    .card__content-wrapper {
+        padding-left: 0px;    
+    }    
+}
