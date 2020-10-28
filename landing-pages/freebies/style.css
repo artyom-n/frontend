@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    color: #4F5665;
+    font-weight: 400;    
+}
+
+.header1__signin-button {
+    color: #0B132A;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.header1__signup-button {
+    border: 1px solid #F53855;    
+    border-radius: 50px;
+    padding: 13px 45px;
+    color: #F53855;
+    font-weight: 500;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section4__plan-button {
+    border: 1px solid #F53838;    
+    border-radius: 50px;
+    padding: 13px 45px;
+    color: #F53838;
+    font-weight: 500;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.section4__plan-button--active {
+    background-color: #F53838;
+    color: #FFFFFF;
+}
+
+.section1__heading {
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.section1__paragraph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    padding-bottom: 16px;
+}
+
+.section1__button {   
+    padding: 17.5px 77.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #F53838;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.section1 {
+    padding-top: 20px;
+}
+
+.section2 {
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+.footer__wrapper {
+    display: flex;    
+}
+
+.footer__icons-wrapper {
+    display: flex;
+}
+
+.flex {
+    display: flex;   
+}
