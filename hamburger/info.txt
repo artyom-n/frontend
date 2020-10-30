@@ -1,0 +1,12 @@
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+https://www.president.lv/lv#gsc.tab=0
+
+1.
+x - transform
+hamburgeram iet selecteta klasse (selected vai active)
+
+2.
+hide menu effect:
+width 0 - width 100%
+transition - animation
